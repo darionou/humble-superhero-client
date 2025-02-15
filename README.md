@@ -18,7 +18,7 @@ The Humble Superhero Frontend is a React-based application that allows users to 
 1. **Clone the repository** (if not already cloned):
    ```bash
    git clone <repository-url>
-   cd humble-superhero-frontend
+   cd humble-superhero-client
 
 2. **Install dependencies:**
    ```bash
