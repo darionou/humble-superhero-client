@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+.superhero-container {
+  background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+  color: #fff;
+  min-height: 100vh;
+  padding: 40px 20px;
+  font-family: 'Bangers', cursive;
+  text-align: center;
+}
+
+.superhero-container h1 {
+  font-size: 3.5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  margin-bottom: 30px;
+}
+
+.superhero-form {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px 30px;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 0 auto 30px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.superhero-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.superhero-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1em;
+}
+
+.superhero-form button {
+  background-color: #ffce00;
+  border: none;
+  color: #000;
+  padding: 12px 25px;
+  font-size: 1.3em;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.superhero-form button:hover {
+  background-color: #ffc107;
+  transform: scale(1.05);
+}
+
+.superhero-list {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px 30px;
+  border-radius: 12px;
+  max-width: 700px;
+  margin: 0 auto;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  text-align: left;
+}
+
+.superhero-list li {
+  margin-bottom: 15px;
+  font-size: 1.5em;
+  line-height: 1.4;
+}
+
+.superhero-list li strong {
+  color: #ffce00;
+}
